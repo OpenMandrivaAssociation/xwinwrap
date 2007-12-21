@@ -9,6 +9,7 @@ Group: System/X11
 URL: http://webcvs.freedesktop.org/xapps/xwinwrap/
 Source: %{name}-%{cvs}.tar.bz2 
 License: GPL
+BuildRoot: %{_tmppath}/%{name}-root
 
 BuildRequires: X11-devel
 
