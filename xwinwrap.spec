@@ -1,5 +1,5 @@
 %define cvs 20060209
-%define release %mkrel 0.%{cvs}.3
+%define release %mkrel 0.%{cvs}.4
 
 Name: xwinwrap
 Version: 0
