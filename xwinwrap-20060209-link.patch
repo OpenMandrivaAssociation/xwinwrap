@@ -1,0 +1,14 @@
+--- Makefile.link	2006-02-09 07:05:35.000000000 +0100
++++ Makefile	2011-01-21 13:25:17.000000000 +0100
+@@ -1,9 +1,10 @@
+ CFLAGS+=-g -Wall -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls
+-LDFLAGS+=-lX11 -lXext -lXrender
++LIBS+=-lX11 -lXext -lXrender
+ 
+ PROGS=xwinwrap
+ 
+ xwinwrap: xwinwrap.o
++	cc $(LDFLAGS) xwinwrap.o $(LIBS) -o xwinwrap
+ 
+ all: $(PROGS)
+ 
