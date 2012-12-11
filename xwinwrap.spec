@@ -45,3 +45,24 @@ rm -rf %{buildroot}
 %{_bindir}/%{name}
 
 
+
+
+%changelog
+* Fri Jan 21 2011 Funda Wang <fwang@mandriva.org> 0-0.20060209.5mdv2011.0
++ Revision: 632007
+- fix linkage and BR
+
+* Wed Sep 09 2009 Thierry Vignaud <tv@mandriva.org> 0-0.20060209.4mdv2010.0
++ Revision: 435327
+- rebuild
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 0-0.20060209.3mdv2009.0
++ Revision: 136630
+- restore BuildRoot
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 0-0.20060209.3mdv2008.1
++ Revision: 130624
+- kill re-definition of %%buildroot on Pixel's request
+
+
+(none)
