@@ -20,7 +20,8 @@ Wrap, for example, Open GL screen savers and put them on your
 desktop background.
 
 Examples:
-xwinwrap -ni -argb -fs -s -st -sp -a -nf -- /usr/lib/xscreensaver/glmatrix -window-id WID
+xwinwrap -ni -argb -fs -s -st -sp -a -nf -- /usr/lib/xscreensaver/glmatrix
+-window-id WID
 xwinwrap -ni -o 0.6 -fs -s -st -sp -b -nf -- mplayer -wid WID -quiet movie.mpg
 xwinwrap -ni -argb -fs -s -st -sp -b -nf -- q3demo -window-id WID
 
