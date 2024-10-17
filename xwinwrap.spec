@@ -6,7 +6,7 @@ Version: 0
 Release: %release
 Summary: Utility to run applications as your desktop background
 Group: System/X11
-URL: http://webcvs.freedesktop.org/xapps/xwinwrap/
+URL: https://webcvs.freedesktop.org/xapps/xwinwrap/
 Source: %{name}-%{cvs}.tar.bz2
 Patch0: xwinwrap-20060209-link.patch
 License: GPL
